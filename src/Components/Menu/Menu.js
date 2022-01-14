@@ -6,12 +6,15 @@ import {
   Toolbar,
   Typography,
   Grid,
+  useMediaQuery,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Menu() {
+  const forBelow900 = useMediaQuery("(max-width:900px)");
+  const forBelow800 = useMediaQuery("(max-width:800px)");
   return (
     <Box style={{ paddingBottom: "70px" }}>
       <AppBar
@@ -24,15 +27,24 @@ export default function Menu() {
             justifyContent: "space-between",
           }}
         >
-          {/* <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton> */}
-          <Box>Logo</Box>
+          {forBelow800 ? (
+            <Box style={{padding:"2%"}}>
+              <img
+                src="https://i.ibb.co/6yH2wPR/innovation-venture-logo.png"
+                alt="logo"
+                style={{ width: "50px" }}
+              />
+            </Box>
+          ) : (
+            <Box>
+              <img
+                src="https://i.ibb.co/VLz9zVT/innovation-venture.png"
+                alt="logo"
+                style={{ width: forBelow900 ? "200px" : "300px" }}
+              />
+            </Box>
+          )}
+
           <Box>
             <Grid container spacing={2}>
               <Grid item>
@@ -41,7 +53,7 @@ export default function Menu() {
                 </Link>
               </Grid>
               <Grid item>
-              <Link to="/about-us">
+                <Link to="/about-us">
                   <Typography variant="h6">About Us</Typography>
                 </Link>
               </Grid>

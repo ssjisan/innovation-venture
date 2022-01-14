@@ -23,7 +23,11 @@ export default function MenuForMobileScreen({ openDrawerHandler }) {
             justifyContent: "space-between",
           }}
         >
-          <Box>Logo</Box>
+          <Box style={{padding:"2%"}}><img
+              src="https://i.ibb.co/6yH2wPR/innovation-venture-logo.png"
+              alt="logo"
+              style={{ width: "50px" }}
+            /></Box>
           <Box>
             <IconButton
               size="large"

@@ -23,7 +23,7 @@ export default function DrawerForMobileMenu({ open, toggleDrawerHandler }) {
         </Link>
         <Link to="/for-company">
           <ListItem>
-            <Typography>For Company</Typography>&nbsp;&nbsp;>
+            <Typography>For Company</Typography>&nbsp;&nbsp;
           </ListItem>
         </Link>
         <Link to="/about-us">
