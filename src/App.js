@@ -7,7 +7,7 @@ import DrawerForMobileMenu from "./Components/Menu/DrawerForMobileMenu";
 import Menu from "./Components/Menu/Menu";
 import MenuForMobileScreen from "./Components/Menu/MenuForMobileScreen";
 function App() {
-  const forBelow600 = useMediaQuery("(max-width:600px)");
+  const forBelow700 = useMediaQuery("(max-width:700px)");
   const [isDrawerOpen, setDrawerOpen] = useState(false);
   const toggleDrawer = () => {
     setDrawerOpen(false);
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      {forBelow600 ? (
+      {forBelow700 ? (
         <MenuForMobileScreen openDrawerHandler={openDrawer} />
       ) : (
         <Menu />

@@ -46,22 +46,22 @@ export default function Menu() {
           )}
 
           <Box>
-            <Grid container spacing={2}>
+            <Grid container spacing={5}>
               <Grid item>
                 <Link to="/">
-                  <Typography variant="h6">Home</Typography>
+                  <Typography variant="body1">Home</Typography>
                 </Link>
               </Grid>
               <Grid item>
                 <Link to="/about-us">
-                  <Typography variant="h6">About Us</Typography>
+                  <Typography variant="body1">About Us</Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Typography variant="h6">Services</Typography>
+                <Typography variant="body1">Services</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="h6">Blog</Typography>
+                <Typography variant="body1">Blog</Typography>
               </Grid>
               <Grid item>
                 <Button variant="contained">Contact us</Button>
