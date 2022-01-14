@@ -28,7 +28,7 @@ export default function Menu() {
           }}
         >
           {forBelow800 ? (
-            <Box style={{padding:"2%"}}>
+            <Box style={{ padding: "2%" }}>
               <img
                 src="https://i.ibb.co/6yH2wPR/innovation-venture-logo.png"
                 alt="logo"
@@ -38,7 +38,7 @@ export default function Menu() {
           ) : (
             <Box>
               <img
-                src="https://i.ibb.co/VLz9zVT/innovation-venture.png"
+                src="https://i.ibb.co/55J6mNr/innovation-venture.png"
                 alt="logo"
                 style={{ width: forBelow900 ? "200px" : "300px" }}
               />
@@ -46,7 +46,7 @@ export default function Menu() {
           )}
 
           <Box>
-            <Grid container spacing={5}>
+            <Grid container spacing={2}>
               <Grid item>
                 <Link to="/">
                   <Typography variant="body1">Home</Typography>
@@ -64,7 +64,13 @@ export default function Menu() {
                 <Typography variant="body1">Blog</Typography>
               </Grid>
               <Grid item>
-                <Button variant="contained">Contact us</Button>
+                <Typography variant="body1">Contact us</Typography>
+              </Grid>
+              <Grid item>
+                <Button variant="outlined">Login</Button>
+              </Grid>
+              <Grid item>
+                <Button variant="contained">Sign up</Button>
               </Grid>
             </Grid>
           </Box>
