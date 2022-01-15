@@ -2,10 +2,15 @@ import { Box, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 
 export default function OurClients() {
-    const forBelow500=useMediaQuery("(max-width:500px)")
+  const forBelow500 = useMediaQuery("(max-width:500px)");
   return (
     <Box style={{ padding: "5%" }}>
-        <Typography variant="h5" style={{textAlign: "center",paddingBottom:"20px",fontWeight:700}}>Our Clients</Typography>
+      <Typography
+        variant="h5"
+        style={{ textAlign: "center", paddingBottom: "20px", fontWeight: 700 }}
+      >
+        We’ve built solutions for...
+      </Typography>
       <Grid container spacing={1}>
         <Grid
           item
@@ -19,7 +24,10 @@ export default function OurClients() {
             alignItems: "center",
           }}
         >
-          <img src="https://i.ibb.co/Qfc5Bfv/comapny1.png" style={{width:forBelow500&&"80%",}}/>
+          <img
+            src="https://i.ibb.co/Qfc5Bfv/comapny1.png" alt="company"
+            style={{ width: forBelow500 && "80%" }}
+          />
         </Grid>
         <Grid
           item
@@ -33,7 +41,10 @@ export default function OurClients() {
             alignItems: "center",
           }}
         >
-          <img src="https://i.ibb.co/bRh09cP/company2.png"style={{width:forBelow500&&"80%"}} />
+          <img
+            src="https://i.ibb.co/bRh09cP/company2.png" alt="company"
+            style={{ width: forBelow500 && "80%" }}
+          />
         </Grid>
         <Grid
           item
@@ -47,7 +58,10 @@ export default function OurClients() {
             alignItems: "center",
           }}
         >
-          <img src="https://i.ibb.co/CK8vb7z/company3.png"style={{width:forBelow500&&"80%"}} />
+          <img
+            src="https://i.ibb.co/CK8vb7z/company3.png" alt="company"
+            style={{ width: forBelow500 && "80%" }}
+          />
         </Grid>
         <Grid
           item
@@ -61,7 +75,10 @@ export default function OurClients() {
             alignItems: "center",
           }}
         >
-          <img src="https://i.ibb.co/D40qf8v/company4.png" style={{width:forBelow500&&"80%"}}/>
+          <img
+            src="https://i.ibb.co/D40qf8v/company4.png" alt="company"
+            style={{ width: forBelow500 && "80%" }}
+          />
         </Grid>
       </Grid>
     </Box>

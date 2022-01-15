@@ -1,4 +1,4 @@
-import { Box, Grid, Typography, Container } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 export default function WhatWeDo() {
   return (
@@ -29,7 +29,7 @@ export default function WhatWeDo() {
               }}
             >
               <img
-                src="https://i.ibb.co/122WWwk/seo.png"
+                src="https://i.ibb.co/122WWwk/seo.png" alt="web dev"
                 style={{ width: "40px" }}
               />
             </Box>
@@ -63,7 +63,7 @@ export default function WhatWeDo() {
               }}
             >
               <img
-                src="https://i.ibb.co/vxXw0HY/coding.png"
+                src="https://i.ibb.co/vxXw0HY/coding.png" alt="app dev"
                 style={{ width: "40px" }}
               />
             </Box>
@@ -97,7 +97,7 @@ export default function WhatWeDo() {
               }}
             >
               <img
-                src="https://i.ibb.co/23992Ck/social-media.png"
+                src="https://i.ibb.co/23992Ck/social-media.png" alt="digital"
                 style={{ width: "40px" }}
               />
             </Box>
@@ -131,7 +131,7 @@ export default function WhatWeDo() {
               }}
             >
               <img
-                src="https://i.ibb.co/z8QjKQT/graphic-design.png"
+                src="https://i.ibb.co/z8QjKQT/graphic-design.png" alt="graphics"
                 style={{ width: "40px" }}
               />
             </Box>

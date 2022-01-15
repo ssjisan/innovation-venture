@@ -5,6 +5,7 @@ import CopyRight from "../Footer/CopyRight";
 import Footer from "../Footer/Footer";
 import HeroSection from "./Components/HeroSection";
 import OurClients from "./Components/OurClients";
+import Testimonial from "./Components/Testimonial";
 import WhatWeDo from "./Components/WhatWeDo";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <WhatWeDo/>
         <Divider/>
         <OurClients/>
+        <Testimonial/>
         <Footer/>
         <Divider/>
         <CopyRight/>

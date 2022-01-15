@@ -37,16 +37,33 @@ export default function HeroSection() {
             alignItems: "center",
           }}
         >
-          <Box style={{ width:(forBelow600&&"90%")||(forBelow900&&"500px")||(forBelow1050 && "95%")||"500px" }}>
+          <Box
+            style={{
+              width:
+                (forBelow600 && "90%") ||
+                (forBelow900 && "500px") ||
+                (forBelow1050 && "95%") ||
+                "500px",
+            }}
+          >
             <Box style={{}}>
-              <Typography variant={forBelow1000 ?"h5":"h4"} style={{fontWeight:"bold", paddingBottom: "10px" }}>
+              <Typography
+                variant={forBelow1000 ? "h5" : "h4"}
+                style={{ fontWeight: "bold", paddingBottom: "10px" }}
+              >
                 Experienced
                 <span style={{ color: "#1090CB" }}> mobile and web</span>
               </Typography>
-              <Typography variant={forBelow1000 ?"h5":"h4"} style={{fontWeight:"bold", paddingBottom: "10px" }}>
+              <Typography
+                variant={forBelow1000 ? "h5" : "h4"}
+                style={{ fontWeight: "bold", paddingBottom: "10px" }}
+              >
                 applications and website
               </Typography>
-              <Typography variant={forBelow1000 ?"h5":"h4"} style={{fontWeight:"bold", paddingBottom: "10px" }}>
+              <Typography
+                variant={forBelow1000 ? "h5" : "h4"}
+                style={{ fontWeight: "bold", paddingBottom: "10px" }}
+              >
                 builders measuring.
               </Typography>
             </Box>
@@ -68,7 +85,6 @@ export default function HeroSection() {
           <Box ref={container} style={{ width: "100%" }}></Box>
         </Grid>
       </Grid>
-      
     </Box>
   );
 }

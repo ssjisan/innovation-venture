@@ -2,13 +2,11 @@ import {
   AppBar,
   Box,
   Button,
-  IconButton,
   Toolbar,
   Typography,
   Grid,
   useMediaQuery,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
 import React from "react";
 import { Link } from "react-router-dom";
 
