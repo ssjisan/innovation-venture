@@ -1,26 +1,56 @@
 [
   {
     "id": 1,
-    "title": "Web Development"
+    "title": "Web Development",
+    "imgUrl": "https://i.ibb.co/L8KbfsL/web-Development.png",
+    "shortDescription": "Responsive website with any kind of functionality. Pixel perfect design and beautiful animation in needed",
+    "description": "",
+    "options": [],
+    "priceRange": "Based on project requirements"
   },
   {
     "id": 2,
-    "title": "E-Commerce"
+    "title": "E-Commerce",
+    "imgUrl": "https://i.ibb.co/W2ywtS3/e-Commerce.png",
+    "shortDescription": "Developing a professional e-commerce website for client. Payment method intrigration with top class payment gateway service",
+    "description": "",
+    "options": [],
+    "priceRange": "Based on prjoect requirements"
   },
   {
     "id": 3,
-    "title": "Mobile App Development"
+    "title": "Mobile App Development",
+    "imgUrl": "https://i.ibb.co/2Yt5XFj/app-Development.png",
+    "shortDescription": "Developing new features and user interfaces from wireframe models. Ensuring the best performance and user experience of the application",
+    "description": "",
+    "options": [],
+    "priceRange": "Based on project requirements"
   },
   {
     "id": 4,
-    "title": "Graphics Design"
+    "title": "Graphics Design",
+    "imgUrl": "https://i.ibb.co/c3zZrnR/graphic-Designer.png",
+    "shortDescription": "Plans concept by studying information and materials.Illustrates concept by designing rough layout of art and copy regarding arrangement, size, type size and style, and related aesthetic concepts.",
+    "description": "",
+    "options": [],
+    "priceRange": "Start from 1000 Bdt."
   },
   {
     "id": 5,
-    "title": "UI/UX Design"
+    "title": "UI/UX Design",
+    "imgUrl": "https://i.ibb.co/VNzG3hw/uxDesign.png",
+    "shortDescription": "Gather and evaluate user requirements in collaboration with product managers and engineers. Illustrate design ideas using storyboards, process flows and sitemaps",
+    "description": "",
+    "options": [],
+    "priceRange": "Start from 5000 Bdt."
   },
   {
     "id": 6,
-    "title": "Digital Marketing"
+    "title": "Digital Marketing",
+    "imgUrl": "https://i.ibb.co/bWgzDDY/digital-Marketing.png",
+    "shortDescription": "Plans and executes all web, SEO/SEM, database marketing, email, social media, and display advertising campaigns.    Designs, builds, and maintains our social media presence.",
+    "description": "",
+    "options": [],
+    "priceRange": "Start from 2500 Bdt."
   }
 ]

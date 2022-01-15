@@ -91,7 +91,7 @@ export default function Testimonial() {
                   >
                     {data.text}
                   </Typography>
-                  <Typography variant="h6" style={{ color: "#515151",paddingBottom: "2%"}}>
+                  <Typography variant="h6" style={{ color: "#515151"}}>
                     <span style={{ color: "#1090CB", fontWeight: "bold" }}>
                       {data.name}
                     </span>
