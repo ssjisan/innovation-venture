@@ -9,8 +9,9 @@ import {
 } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import useStyles from "./Styles/MenuStyle";
 export default function Menu() {
+  const classes = useStyles();
   const forBelow900 = useMediaQuery("(max-width:900px)");
   const forBelow800 = useMediaQuery("(max-width:800px)");
   return (
@@ -44,31 +45,45 @@ export default function Menu() {
           )}
 
           <Box>
-            <Grid container spacing={2}>
+            <Grid container spacing={5}>
               <Grid item>
-                <Link to="/">
-                  <Typography variant="body1">Home</Typography>
+                <Link to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>Home</Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Link to="/about-us">
-                  <Typography variant="body1">About Us</Typography>
+                <Link to="/about-us" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>About Us</Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Typography variant="body1">Services</Typography>
+                <Link  to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>Services</Typography>
+                </Link>
               </Grid>
               <Grid item>
-                <Typography variant="body1">Blog</Typography>
+                <Link  to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>Blog</Typography>
+                </Link>
               </Grid>
               <Grid item>
-                <Typography variant="body1">Contact us</Typography>
+                <Link  to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>Contact us</Typography>
+                </Link>
               </Grid>
               <Grid item>
-                <Button variant="outlined">Login</Button>
+                <Link  to="/" className={classes.Link}>
+                  <Button variant="outlined" size="small">
+                    Login
+                  </Button>
+                </Link>
               </Grid>
               <Grid item>
-                <Button variant="contained">Sign up</Button>
+                <Link  to="/" className={classes.Link}>
+                  <Button variant="contained" size="small">
+                    Sign up
+                  </Button>
+                </Link>
               </Grid>
             </Grid>
           </Box>
