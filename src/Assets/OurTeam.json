@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "category": "Leadership",
+    "name": "Devonna Bartczak",
+    "position": "Founder and CEO",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 2,
+    "category": "Leadership",
+    "name": "Corrine Aveline",
+    "position": "CFO",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 3,
+    "category": "Leadership",
+    "name": "Brianna Marklin",
+    "position": "CMO",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 4,
+    "category": "Leadership",
+    "name": "Victor Verick",
+    "position": "General Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 5,
+    "category": "Management",
+    "name": "Levey Abrehart",
+    "position": "HR Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 6,
+    "category": "Management",
+    "name": "Tiphany Wilbert",
+    "position": "HR Admin",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 7,
+    "category": "Management",
+    "name": "Amabelle Blesli",
+    "position": "Finance & Accounts Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 8,
+    "category": "Management",
+    "name": "Brigham Tesimon",
+    "position": "Accountant",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 9,
+    "category": "Management",
+    "name": "Elliot Turnbull",
+    "position": "Project Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 10,
+    "category": "Management",
+    "name": "Franklin Carslaw",
+    "position": "Project Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 11,
+    "category": "Management",
+    "name": "Rosalie Kilbane",
+    "position": "Junior Project Manager",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 12,
+    "category": "Developer",
+    "name": "Sofia Glasser",
+    "position": "Senior Lead Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 13,
+    "category": "Developer",
+    "name": "Lindsy Wodham",
+    "position": "Senior Lead Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 14,
+    "category": "Developer",
+    "name": "Alasdair Pidgeley",
+    "position": "Lead Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 15,
+    "category": "Developer",
+    "name": "Royal Vanne",
+    "position": "Full-stack Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 16,
+    "category": "Developer",
+    "name": "Rufus Huxster",
+    "position": "Full-stack Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 17,
+    "category": "Developer",
+    "name": "Chaddie Imesson",
+    "position": "Full-stack Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 18,
+    "category": "Developer",
+    "name": "Nico Yankin",
+    "position": "Senior Front-end Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 19,
+    "category": "Developer",
+    "name": "Elinore Fittis",
+    "position": "Senior Front-end Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 20,
+    "category": "Developer",
+    "name": "Rick Spillman",
+    "position": "Junior Front-end Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 21,
+    "category": "Developer",
+    "name": "Katinka Vigers",
+    "position": "Senior Back-end Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 22,
+    "category": "Developer",
+    "name": "Rollo Lydiatt",
+    "position": "Junior Back-end Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 23,
+    "category": "Developer",
+    "name": "Farah Brettelle",
+    "position": "UI/UX Developer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  },
+  {
+    "id": 24,
+    "category": "Developer",
+    "name": "Gina Strafen",
+    "position": "UI/UX Designer",
+    "imgUrl": "https://i.ibb.co/ZKJyRbJ/about-Me-Section.png"
+  }
+]
