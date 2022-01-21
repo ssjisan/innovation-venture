@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Gather client's requirements",
+    "description": "The first priority in the project management is to define, in the clearest terms possible, what the client wants.",
+    "imgUrl": "https://i.ibb.co/fpRKpym/conversation.png"
+  },
+  {
+    "id": 2,
+    "title": "Project planning",
+    "description": "Now we start a rough drafting and prototyping the clients requirements. If any changes needed we make changes",
+    "imgUrl": "https://i.ibb.co/NsqBRM1/planning.png"
+  },
+  {
+    "id": 3,
+    "title": "Building",
+    "description": "In the build phase of a website project, our team focused on creating the site’s layout, content, design and functionalities.",
+    "imgUrl": "https://i.ibb.co/bFHhyBf/coding.png"
+  },
+  {
+    "id": 4,
+    "title": "Optimization ",
+    "description": "From optimizing cross-browser performance to compressing image files, this is the phase where your team brings the website up to the highest standards it can",
+    "imgUrl": "https://i.ibb.co/0ZDhHx4/optimization.png"
+  },
+  {
+    "id": 5,
+    "title": "Finalization ",
+    "description": "This phase of website project management is relatively complex. We starting initial testing, go live, foundational marketing/SEO activities",
+    "imgUrl": "https://i.ibb.co/XYMnRGB/computer.png"
+  },
+  {
+    "id": 6,
+    "title": "Launch ",
+    "description": "Finally, after completing the tasting and other staffs, we are close to launch the produce or handover it to you",
+    "imgUrl": "https://i.ibb.co/Zd2Cb4y/launch.png"
+  }
+]

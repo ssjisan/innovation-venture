@@ -6,6 +6,9 @@ export default makeStyles((theme) => ({
       color:"#484848"
   },
   MenuTitle:{
-      letterSpacing:2
+      letterSpacing:0
+  },
+  Active:{
+    fontWeight:"bold"
   }
 }));

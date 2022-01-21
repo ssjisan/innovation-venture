@@ -36,7 +36,7 @@ export default function OurServices() {
               alignItems: 'center'
             }}
           >
-            <Card style={{maxWidth:"100%",padding:"2%",maxWidth:"350px"}}>
+            <Card style={{padding:"2%",maxWidth:"350px"}}>
               <img src={data.imgUrl} alt={data.title} style={{width:"100px"}}/>
               <CardContent>
                 <Typography

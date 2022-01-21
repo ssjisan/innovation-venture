@@ -10,10 +10,11 @@ import {
 import React from "react";
 import { Link } from "react-router-dom";
 import useStyles from "./Styles/MenuStyle";
-export default function Menu() {
+export default function Menu({ props }) {
   const classes = useStyles();
   const forBelow900 = useMediaQuery("(max-width:900px)");
   const forBelow800 = useMediaQuery("(max-width:800px)");
+  const forBelow1100 = useMediaQuery("(max-width:1100px)");
   return (
     <Box style={{ paddingBottom: "70px" }}>
       <AppBar
@@ -26,7 +27,7 @@ export default function Menu() {
             justifyContent: "space-between",
           }}
         >
-          {forBelow800 ? (
+          {forBelow1100 ? (
             <Box style={{ padding: "2%" }}>
               <img
                 src="https://i.ibb.co/6yH2wPR/innovation-venture-logo.png"
@@ -45,41 +46,59 @@ export default function Menu() {
           )}
 
           <Box>
-            <Grid container spacing={5}>
+            <Grid container spacing={forBelow900 ? 2 : 5}>
+              <Grid item>
+                <Link
+                  to="/"
+                  className={classes.Link}
+                  
+                >
+                  <Typography variant="body1" className={classes.MenuTitle}>
+                    Home
+                  </Typography>
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link
+                  to="/about-us"
+                  className={classes.Link}
+                 
+                >
+                  <Typography variant="body1" className={classes.MenuTitle}>
+                    About Us
+                  </Typography>
+                </Link>
+              </Grid>
               <Grid item>
                 <Link to="/" className={classes.Link}>
-                  <Typography variant="body1" className={classes.MenuTitle}>Home</Typography>
+                  <Typography variant="body1" className={classes.MenuTitle}>
+                    Services
+                  </Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Link to="/about-us" className={classes.Link}>
-                  <Typography variant="body1" className={classes.MenuTitle}>About Us</Typography>
+                <Link to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>
+                    Blog
+                  </Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Link  to="/" className={classes.Link}>
-                  <Typography variant="body1" className={classes.MenuTitle}>Services</Typography>
+                <Link to="/" className={classes.Link}>
+                  <Typography variant="body1" className={classes.MenuTitle}>
+                    Contact us
+                  </Typography>
                 </Link>
               </Grid>
               <Grid item>
-                <Link  to="/" className={classes.Link}>
-                  <Typography variant="body1" className={classes.MenuTitle}>Blog</Typography>
-                </Link>
-              </Grid>
-              <Grid item>
-                <Link  to="/" className={classes.Link}>
-                  <Typography variant="body1" className={classes.MenuTitle}>Contact us</Typography>
-                </Link>
-              </Grid>
-              <Grid item>
-                <Link  to="/" className={classes.Link}>
+                <Link to="/" className={classes.Link}>
                   <Button variant="outlined" size="small">
                     Login
                   </Button>
                 </Link>
               </Grid>
               <Grid item>
-                <Link  to="/" className={classes.Link}>
+                <Link to="/" className={classes.Link}>
                   <Button variant="contained" size="small">
                     Sign up
                   </Button>

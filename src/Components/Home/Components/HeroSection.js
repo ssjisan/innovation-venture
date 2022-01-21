@@ -17,7 +17,7 @@ export default function HeroSection() {
     });
   }, []);
   return (
-    <Box style={{ backgroundColor: "#E7F4FA" }}>
+    <Box style={{ backgroundColor: "#E7F4FA",padding:"5%"}}>
       <Grid
         container
         justifyContent="center"
@@ -41,7 +41,7 @@ export default function HeroSection() {
             style={{
               width:
                 (forBelow600 && "90%") ||
-                (forBelow900 && "500px") ||
+                (forBelow900 && "95%") ||
                 (forBelow1050 && "95%") ||
                 "500px",
             }}
@@ -76,8 +76,8 @@ export default function HeroSection() {
               </Typography>
             </Box>
             <Box>
-              <Button variant="contained">Contact us</Button> &nbsp;
-              <Button variant="outlined">View More</Button>
+              <Button variant="contained" size="small">Contact us</Button> &nbsp;
+              <Button variant="outlined" size="small">View More</Button>
             </Box>
           </Box>
         </Grid>

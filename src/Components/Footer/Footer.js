@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 import RoomIcon from "@mui/icons-material/Room";
 import EmailIcon from "@mui/icons-material/Email";
@@ -9,6 +9,7 @@ import { BsYoutube } from "react-icons/bs";
 import { AiOutlineMedium } from "react-icons/ai";
 
 export default function Footer() {
+  const forBelow400 =useMediaQuery("(max-width:500px)")
   return (
     <Box style={{ padding: "5%" }}>
       <Grid container spacing={2}>
@@ -23,7 +24,7 @@ export default function Footer() {
             mobile and web apps in general.
           </Typography>
         </Grid>
-        <Grid item xs={6} sm={4} md={2} lg={2}>
+        <Grid item xs={3} sm={4} md={2} lg={2}>
           <Typography
             variant="h6"
             style={{ paddingBottom: "5px", fontWeight: "bold" }}
@@ -46,7 +47,7 @@ export default function Footer() {
             Careers
           </Typography>
         </Grid>
-        <Grid item  xs={6} sm={4} md={3} lg={3}>
+        <Grid item  xs={9} sm={4} md={3} lg={3}>
           <Typography
             variant="h6"
             style={{ paddingBottom: "5px", fontWeight: "bold" }}
@@ -54,13 +55,13 @@ export default function Footer() {
             Contact Us
           </Typography>
           <Typography variant="body1">
-            <RoomIcon /> Banani, Dhaka, Bangladesh
+            { <RoomIcon />} Banani, Dhaka, Bangladesh
           </Typography>
           <Typography variant="body1">
-            <EmailIcon /> info@innovationventure.com
+         { <EmailIcon />} info@innovationventure.com
           </Typography>
           <Typography variant="body1">
-            <PhoneIcon /> +88 01786 90 40 78
+          {<PhoneIcon />} +88 01786 90 40 78
           </Typography>
         </Grid>
         <Grid item xs={12} sm={4} md={3} lg={3} >

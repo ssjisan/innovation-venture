@@ -62,7 +62,7 @@ export default function Testimonial() {
           </Box>}
         </Grid>
         <Grid item xs={12} sm={8} md={7} lg={7}>
-          <Slider {...settings} ref={sliderRef}>
+          <Slider {...settings} ref={sliderRef} style={{maxWidth:"98.5%"}}>
             {testimonial.map((data, i) => (
               <Box key={i}>
                 <Box

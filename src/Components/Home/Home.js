@@ -4,6 +4,7 @@ import React from "react";
 import CopyRight from "../Footer/CopyRight";
 import Footer from "../Footer/Footer";
 import HeroSection from "./Components/HeroSection";
+import HowWeDoThat from "./Components/HowWeDoThat";
 import OurClients from "./Components/OurClients";
 import OurServices from "./Components/OurServices";
 import Testimonial from "./Components/Testimonial";
@@ -17,6 +18,7 @@ export default function Home() {
         <WhatWeDo/>
         <Divider/>
         <OurServices/>
+        <HowWeDoThat/>
         <OurClients/>
         <Testimonial/>
         <Footer/>
