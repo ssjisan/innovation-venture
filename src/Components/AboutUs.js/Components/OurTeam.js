@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from "react";
-import {
-  Avatar,
-  Box,
-  Button,
-  Grid,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { Avatar, Box, Grid, Typography, useMediaQuery } from "@mui/material";
 import data from "../../../Assets/OurTeam.json";
 export default function OurTeam() {
+  // eslint-disable-next-line
   const [team, setTeam] = useState(data);
   const [category, setCategory] = useState([]);
-  const [filteredTeam, setFilteredTeam] = useState([]);
+  const [active, setActive] = useState("Leadership");
+  const [filteredTeam, setFilteredTeam] = useState(
+    team.filter((data) => data.category === "Leadership")
+  );
   useEffect(() => {
     let newArray = [];
     team.map((data) => newArray.push(data.category));
@@ -19,10 +16,10 @@ export default function OurTeam() {
     setCategory(uniqueArray);
   }, []);
   const handleCategory = (dataFromButton) => {
+    setActive(dataFromButton);
     let newArray = team.filter((data) => data.category === dataFromButton);
     setFilteredTeam(newArray);
   };
-  console.log(filteredTeam);
   return (
     <Box style={{ padding: "5%" }}>
       <Typography
@@ -34,7 +31,14 @@ export default function OurTeam() {
       <Box style={{ display: "flex", justifyContent: "center" }}>
         {category.map((data) => (
           <Typography
-            style={{ padding: "20px", cursor: "pointer", letterSpacing: 6 }}
+            style={{
+              padding: "20px",
+              cursor: "pointer",
+              letterSpacing: 6,
+              borderBottom:
+                active === data ? "1px solid blue" : "1px solid transparent",
+                fontWeight:active === data&&700
+            }}
             onClick={() => handleCategory(data)}
           >
             {data}
@@ -68,7 +72,11 @@ export default function OurTeam() {
               </Typography>
               <Avatar
                 src={data.imgUrl}
-                style={{ width: "200px", height: "200px",marginBottom:"50px"}}
+                style={{
+                  width: "200px",
+                  height: "200px",
+                  marginBottom: "50px",
+                }}
               />
             </Grid>
           ))}
