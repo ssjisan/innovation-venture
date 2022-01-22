@@ -50,6 +50,9 @@ export default function OurTeam() {
           {filteredTeam.map((data) => (
             <Grid
               item
+              xs={12}
+              sm={4}
+              md={4}
               lg={3}
               style={{
                 display: "flex",
@@ -59,7 +62,7 @@ export default function OurTeam() {
               }}
             >
               <Typography
-                variant="body1"
+                variant="h6"
                 style={{ letterSpacing: 3, marginBottom: "10px" }}
               >
                 {data.name}
