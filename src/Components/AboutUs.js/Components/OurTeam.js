@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Box, Grid, Typography, useMediaQuery } from "@mui/material";
+import { Avatar, Box, Grid, Typography } from "@mui/material";
 import data from "../../../Assets/OurTeam.json";
 export default function OurTeam() {
   // eslint-disable-next-line
