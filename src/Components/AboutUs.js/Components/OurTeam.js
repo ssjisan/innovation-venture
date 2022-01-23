@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Box, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Grid, IconButton, Typography } from "@mui/material";
 import data from "../../../Assets/OurTeam.json";
+import { FaLinkedinIn,FaFacebookF } from "react-icons/fa";
+import useStyles from "./Styles/OurTeamStyles"
 export default function OurTeam() {
   // eslint-disable-next-line
   const [team, setTeam] = useState(data);
   const [category, setCategory] = useState([]);
   const [active, setActive] = useState("Leadership");
+  const classes = useStyles()
   const [filteredTeam, setFilteredTeam] = useState(
     team.filter((data) => data.category === "Leadership")
   );
@@ -45,7 +48,7 @@ export default function OurTeam() {
           </Typography>
         ))}
       </Box>
-      <Box style={{ marginTop: "50px" }}>
+      <Box style={{ marginTop: "50px" }} className={classes.MainBox}>
         <Grid container spacing={2} justifyContent="center">
           {filteredTeam.map((data) => (
             <Grid
@@ -78,7 +81,7 @@ export default function OurTeam() {
                 style={{
                   width: "200px",
                   height: "200px",
-                  marginBottom: "50px",
+                  marginBottom:"10px"
                 }}
               />
             </Grid>
