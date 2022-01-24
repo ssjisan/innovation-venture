@@ -1,7 +1,7 @@
 import { useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import AboutUs from "./Components/AboutUs.js/AboutUs";
+import AboutUs from "./Components/AboutUs/AboutUs";
 import Home from "./Components/Home/Home";
 import DrawerForMobileMenu from "./Components/Menu/DrawerForMobileMenu";
 import Menu from "./Components/Menu/Menu";
