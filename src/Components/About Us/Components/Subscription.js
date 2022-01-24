@@ -8,7 +8,7 @@ export default function Subscription() {
               <Typography variant="h5" style={{fontWeight:"bold",textAlign:"center"}}>Subscribe us for any kind of update and offer. <br/> Get in touch</Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} style={{display: 'flex', justifyContent: 'center'}}>
-              <TextField size="small" placeholder="email" style={{width:"25%",marginRight:"20px",borderRadius:"10px"}}/>
+              <TextField size="small" placeholder="Enter your email" style={{width:"25%",marginRight:"20px",borderRadius:"10px"}}/>
               <Button size="small" variant="contained" style={{backgroundColor:"#000"}}>SUBSCRIBE</Button>
           </Grid>
       </Grid>

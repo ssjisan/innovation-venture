@@ -17,6 +17,7 @@ export default function HeroSection() {
               >
                 <img
                   src="https://i.ibb.co/3YNdnyN/aboutUs1.jpg"
+                  alt="first"
                   style={{ width: "80%", borderRadius: "10px" }}
                 />
               </Grid>
@@ -29,6 +30,7 @@ export default function HeroSection() {
               >
                 <img
                   src="https://i.ibb.co/Yhq3KtG/aboutUs2.jpg"
+                  alt="second"
                   style={{ width: "80%", borderRadius: "10px" }}
                 />
               </Grid>

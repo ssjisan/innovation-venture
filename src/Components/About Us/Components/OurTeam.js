@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, Box, Grid, IconButton, Typography } from "@mui/material";
+import { Avatar, Box, Grid, Typography } from "@mui/material";
 import data from "../../../Assets/OurTeam.json";
-import { FaLinkedinIn,FaFacebookF } from "react-icons/fa";
 import useStyles from "./Styles/OurTeamStyles"
 export default function OurTeam() {
   // eslint-disable-next-line
@@ -17,7 +16,7 @@ export default function OurTeam() {
     team.map((data) => newArray.push(data.category));
     let uniqueArray = [...new Set(newArray)];
     setCategory(uniqueArray);
-  }, []);
+  }, [team]);
   const handleCategory = (dataFromButton) => {
     setActive(dataFromButton);
     let newArray = team.filter((data) => data.category === dataFromButton);
