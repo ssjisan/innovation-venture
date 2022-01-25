@@ -2,6 +2,7 @@ import { useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import AboutUs from "./Components/About Us/AboutUs";
+import ContactUs from "./Components/Contact Us/ContactUs";
 import Home from "./Components/Home/Home";
 import DrawerForMobileMenu from "./Components/Menu/DrawerForMobileMenu";
 import Menu from "./Components/Menu/Menu";
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </div>
