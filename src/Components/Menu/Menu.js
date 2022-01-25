@@ -84,7 +84,7 @@ export default function Menu({ props }) {
                 </Link>
               </Grid>
               <Grid item>
-                <Link to="/" className={classes.Link}>
+                <Link to="/contact-us" className={classes.Link}>
                   <Typography variant="body1" className={classes.MenuTitle}>
                     Contact us
                   </Typography>
